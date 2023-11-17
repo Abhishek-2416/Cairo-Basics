@@ -1,12 +1,12 @@
 // variables1.cairo
-// Make me compile!
-// Execute `starklings hint variables1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
+//Note
+//To intalise new variable in cairo we use the keyword "let"
+
 
 use debug::PrintTrait;
 
 fn main() {
-    x = 5;
+    let x = 5;
     x.print();
 }
