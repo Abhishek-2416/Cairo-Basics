@@ -1,12 +1,25 @@
 // variables5.cairo
-// Execute `starklings hint variables5` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 use debug::PrintTrait;
 
+//Question
+
+// fn main() {
+//     let number = 1_u8; // don't change this line
+//     number.print();
+//     number = 3; // don't rename this variable
+//     number.print();
+// }
+
+//Solution
+
 fn main() {
-    let number = 1_u8; // don't change this line
+    let number:u8 = 1_u8; // don't change this line
     number.print();
-    number = 3; // don't rename this variable
+    let number:felt252 = 3; // don't rename this variable
     number.print();
 }
+
+//Explanation
+
+//Here we need to do the same thing that is shadowing or redeclare the variable and they can have different types also

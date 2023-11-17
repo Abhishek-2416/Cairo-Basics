@@ -1,11 +1,12 @@
 // variables2.cairo
-// Execute `starklings hint variables2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
+//Note
+//Here the problem is let x cannot determine what is its type 
+
 use debug::PrintTrait;
 
 fn main() {
-    let x;
+    let x = 0;
     if x == 10 {
         ('x is ten!').print();
     } else {
