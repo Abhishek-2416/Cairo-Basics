@@ -1,6 +1,4 @@
 // primitive_types3.cairo
-// Destructure the `cat` tuple to call print on each member.
-
 
 use debug::PrintTrait;
 

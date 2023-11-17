@@ -1,5 +1,5 @@
 // variables6.cairo
-//
+
 use debug::PrintTrait;
 //Question
 

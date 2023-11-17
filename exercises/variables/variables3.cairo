@@ -4,7 +4,6 @@
 //Here the reason being here we have the type declared but no value is declared which is using "felt252"
 //And it is called felt because all of the traits gets generated from the cairo compile 
 
-
 use debug::PrintTrait;
 
 fn main() {

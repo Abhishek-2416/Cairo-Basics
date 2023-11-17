@@ -1,6 +1,5 @@
 // primitive_types2.cairo
 
-
 use debug::PrintTrait;
 
 fn main() {
